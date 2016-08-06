@@ -1,4 +1,4 @@
-@@font-face {
+@font-face {
   font-family: 'Myfont';
   src: url(./font/FlopDesignFONT.otf);
 }
@@ -38,6 +38,15 @@ header{
   color: white;
   max-width:100% ;
   margin: 0;
+}
+
+.image h1{
+  margin: 0;
+}
+
+.image p{
+  margin:0;
+  letter-spacing: 9px;
 }
 
 .page-content{
