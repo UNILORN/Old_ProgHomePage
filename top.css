@@ -36,6 +36,7 @@ header{
 .image-3{
   background:url(images/bg1-5.jpg);
   background-size: cover;
+  background-position:center;
   display: none;
 }
 
