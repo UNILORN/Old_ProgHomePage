@@ -13,15 +13,15 @@ header{
   text-align: center;
   display: table;
   table-layout: fixed;
-  width: 500px;
+  width: 600px;
   height: 100vh;
-
 }
 .header-image{
   position: fixed;
-  width: 500px;
+  width: 600px;
   height: 100vh;
 }
+
 .image-1{
   background:url(images/bg1-4.jpg);
   background-size: cover;
@@ -59,6 +59,7 @@ header{
   color: white;
   max-width:100% ;
   margin: 0;
+  text-shadow: 0px 2px 5px #222;
 }
 
 .image h1{
@@ -71,7 +72,7 @@ header{
 }
 
 .page-content{
-  margin-left: 500px;
+  margin-left: 600px;
 }
 
 .page-profile{
@@ -95,16 +96,59 @@ header{
 
 .content-first{
   width: 100%;
-  height: 1200px;
+  height: auto;
   padding: 45px 30px;
   position: relative;
   background-color: #c8e6c9;
 }
+.content-first-inner{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0;
+}
+.content-box{
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  height: 200px;
+}
 
 .content-second{
   width: 100%;
-  height: 1200px;
+  height: auto;
   padding: 45px 30px;
   position: relative;
-  background-color: #ef9a9a ;
+  background-color: #b3e5fc ;
+}
+
+.content-box-inner{
+  display: none;
+  width: 100%;
+  height: 200px;
+  background-color: #afa;
+}
+.content-box-link{
+  width: 100%;
+  height: 200px;
+}
+.cont-image-1{
+  background: url(./images/bg1-5.jpg);
+  background-size: cover;
+  background-position:center;
+}
+.content-box-lay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.content-box-lay a{
+  color: #DDD;
+  font-size: 30px;
+  letter-spacing: 7px;
 }

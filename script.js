@@ -23,4 +23,27 @@ $(function(){
       $(".image-3").fadeIn();
     }
   });
+
+  $('.content-first-inner').box2fullWidth({
+  minwidth:400,
+  who:'div',
+  margin:20,
+  duration:200,
+  boxdelay:0,
+  bottomMargin:50,
+  positionComplete:function(){ console.log("end!")}
+});
+
+  $(".content-box").hover(function(){
+    $(this).find(".content-box-lay").fadeIn();
+    $(this).find(".content-box-inner").fadeIn();
+  },function(){
+    $(this).find(".content-box-lay").fadeOut();
+    $(this).find(".content-box-inner").fadeOut();
+  });
+
+
+
+
+
 });
