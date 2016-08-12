@@ -1,3 +1,6 @@
+<?php
+  require __DIR__."/function.php";
+ ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,7 +10,22 @@
     <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-    <link rel="stylesheet" href="top.css" media="screen" title="no title" charset="utf-8">
+
+    <?php
+    #Responsiv Phone
+    $ua = $_SERVER['HTTP_USER_AGENT'];
+    $terminal = ['iPhone','iPod','Android'];
+    $flug = 0;
+
+    for ($i = 0;$i < 3 ;$i++){
+      if (strpos($ua,$terminal[$i])!==false){ $flug = 1;}
+    }
+    #PC
+    if ($flug == 0){ echo '<link rel="stylesheet" href="top.css" media="screen" title="no title" charset="utf-8">'; }
+    #Phone
+    else { echo '<link rel="stylesheet" href="top_phone.css" media="screen" title="no title" charset="utf-8">'; }
+
+     ?>
     <script src="script.js" type="text/javascript"></script>
   </head>
   <body>
@@ -30,37 +48,29 @@
         <div class="page-profile-inner">
           <h1>ようこそ</h1>
           <p>このサイトはUnilornが作成したWebAppを展示するサイトです。</p>
+          <?php
+            if($flug == 1){
+              echo '<h4 style="color:#E57373">※このサイトはPCでの閲覧を想定して作成されています</h4>
+                    <h4 style="color:#E57373">Javascriptにより想定外の挙動が起こる可能性がありますのでPCでの閲覧を推奨します。</h4>';
+            }
+           ?>
         </div>
       </div>
 
       <div class="content-first">
         <div class="content-first-inner">
-          <div class="content-box cont-image-1">
-            <a href="#" class="content-box-inner">
-              <div class="content-box-link"></div>
-            </a>
-            <div class="content-box-lay">
-              <a href="#">Infomation</a>
-            </div>
-          </div>
 
-          <div class="content-box">
-            <div class="content-box-lay">
-              <a href="#">JumpPage</a>
-            </div>
-          </div>
-          <div class="content-box">
-            <div class="content-box-inner"></div>
-            <div class="content-box-lay">
-              <a href="#">JumpPage</a>
-            </div>
-          </div>
-          <div class="content-box">
-            <div class="content-box-inner"></div>
-            <div class="content-box-lay">
-              <a href="#">JumpPage</a>
-            </div>
-          </div>
+          <?php
+            Content("1","#","NewPHPTodoList");
+            Content("2","#","KintetsuRailWayList");
+            Content("3","#","PHPTodoList");
+            Content("4","#","MusicHomePage");
+            Content("5","#","RaspberryPI Sensor");
+            Content("6","#","No Contents");
+            Content("6","#","No Contents");
+            Content("6","#","No Contents");
+            Content("6","#","No Contents");
+           ?>
 
         </div>
       </div>

@@ -27,7 +27,7 @@ $(function(){
   $('.content-first-inner').box2fullWidth({
   minwidth:400,
   who:'div',
-  margin:20,
+  margin:40,
   duration:200,
   boxdelay:0,
   bottomMargin:50,
@@ -36,7 +36,9 @@ $(function(){
 
   $(".content-box").hover(function(){
     $(this).find(".content-box-lay").fadeIn();
+    $(this).find(".content-box-lay").css("display","table");
     $(this).find(".content-box-inner").fadeIn();
+
   },function(){
     $(this).find(".content-box-lay").fadeOut();
     $(this).find(".content-box-inner").fadeOut();
