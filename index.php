@@ -57,9 +57,44 @@
         </div>
       </div>
 
-      <div class="content-first">
-        <div class="content-first-inner">
 
+      <div class="content-fixed">
+        <div class="content-fixed-inner">
+          <div class="content-fixed-image">
+            <div class="content-fixed-image-inner">
+              <div class="cont-fixed-image cont-image-1">
+
+              </div>
+            </div>
+          </div>
+
+          <div class="content-fixed-overview">
+            <div class="content-fixed-title">
+              <div class="content-fixed-title-inner">
+                <h1>test</h1>
+              </div>
+            </div>
+            <div class="content-fixed-func">
+              <div class="content-fixed-func-inner">
+                <ul>
+                  <li>機能１</li>
+                  <li>機能２</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="content-fixed-description">
+          <p>
+            setumei
+          </p>
+        </div>
+      </div>
+
+      <div class="content-first">
+        <h1>Contents</h1>
+        <div class="content-first-inner">
           <?php
             Content("1","#","NewPHPTodoList");
             Content("2","#","KintetsuRailWayList");

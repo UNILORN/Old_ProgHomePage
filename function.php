@@ -11,6 +11,7 @@ function Content($num,$url,$text){
                 <a href="#">'.$text.'</a>
               </div>
             </div>
+            
   ';
   echo $html;
 }
