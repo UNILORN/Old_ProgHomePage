@@ -50,7 +50,9 @@ function ContentFixed($num,$text,$func){
           </div>
           <div class="content-fixed-description">
             <p>
-              setumei
+              ここには説明が入ります。<br>
+              まだコードが整えられてないため工事中です。<br>
+              しばらくお待ちください。
             </p>
           </div>
         </div>
@@ -60,7 +62,7 @@ function ContentFixed($num,$text,$func){
 
 function functext($list){
   foreach ($list as $value) {
-    echo '<li>'.$value.'</li>';
+    echo '<li><b>'.$value.'</b></li>';
   }
 }
  ?>
