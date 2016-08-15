@@ -17,7 +17,7 @@ function Content($num,$url,$text){
   echo $html;
 }
 
-function ContentFixed($num,$text){
+function ContentFixed($num,$text,$func){
   $html = '<div class="content-fixed content-fixed-num'.$num.'">
           <div class="content-fixed-inner">
             <div class="content-fixed-image">
@@ -37,8 +37,11 @@ function ContentFixed($num,$text){
               <div class="content-fixed-func">
                 <div class="content-fixed-func-inner">
                   <ul>
-                    <li>機能１</li>
-                    <li>機能２</li>
+                    ';
+              foreach ($func as $value) {
+                  $html .= '<li>'.$value.'</li>';
+              }
+    $html .= '
                   </ul>
                 </div>
               </div>
@@ -53,5 +56,11 @@ function ContentFixed($num,$text){
         </div>
         ';
   echo $html;
+}
+
+function functext($list){
+  foreach ($list as $value) {
+    echo '<li>'.$value.'</li>';
+  }
 }
  ?>

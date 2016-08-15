@@ -3,7 +3,7 @@
 function ContentFirst($list){
 
   foreach ($list as $value) {
-    ContentFixed($value['num'],$value['name']);
+    ContentFixed($value['num'],$value['name'],$value["func"]);
   }
 
 echo '

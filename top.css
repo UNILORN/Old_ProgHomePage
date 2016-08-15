@@ -88,7 +88,7 @@ header{
   display: none;
 }
 .image-3{
-  background:url(images/bg1-5.jpg);
+  background:url(images/bg.jpg);
   background-size: cover;
   background-position:center;
   display: none;
@@ -167,7 +167,7 @@ header{
 
 .content-second{
   width: 100%;
-  height: auto;
+  height: 1000px;
   padding: 45px 30px;
   position: relative;
   background-color: #b3e5fc ;

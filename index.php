@@ -63,39 +63,48 @@
       $list = array(array(
         'num' => 1,
         'url' => '#',
-        'name' => 'NewPHPTodoList'
+        'name' => 'NewPHPTodoList',
+        'func' => array("アカウント管理","ログイン機能","検索機能","DB連携")
       ),array(
         'num' => 2,
         'url' => '#',
-        'name' => 'KintetsuRailWayList'
+        'name' => 'KintetsuRailWayList',
+        'func' => array("MaterialDesign","レスポンシブサイト")
       ),array(
         'num' => 3,
         'url' => '#',
-        'name' => 'PHPTodoList'
+        'name' => 'PHPTodoList',
+        'func' => array("音声入力","リスト管理","ページング","DB連携")
       ),array(
         'num' => 4,
         'url' => '#',
-        'name' => 'MusicHomePage'
+        'name' => 'MusicHomePage',
+        'func' => array("動画埋め込み")
       ),array(
         'num' => 5,
         'url' => '#',
-        'name' => 'RaspberryPI Sensor'
+        'name' => 'RaspberryPI Sensor',
+        'func' => array("温度管理","サーバ構築")
       ),array(
         'num' => 6,
         'url' => '#',
-        'name' => 'No Contents'
+        'name' => 'No Contents',
+        'func' => array("")
       ),array(
         'num' => 6,
         'url' => '#',
-        'name' => 'No Contents'
+        'name' => 'No Contents',
+        'func' => array("")
       ),array(
         'num' => 6,
         'url' => '#',
-        'name' => 'No Contents'
+        'name' => 'No Contents',
+        'func' => array("")
       ),array(
         'num' => 6,
         'url' => '#',
-        'name' => 'No Contents'
+        'name' => 'No Contents',
+        'func' => array("")
       ));
 
       ContentFirst($list);
