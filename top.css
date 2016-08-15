@@ -254,9 +254,9 @@ header{
   float: left;
   display: table;
   margin: 0;
-  padding: 30px 40px;
+  padding: 10px 70px;
   width: 100%;
-  height: 30vh;
+  height: 33vh;
 }
 .content-fixed-image-inner{
   display: table-cell;
@@ -274,17 +274,35 @@ header{
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 30vh;
+  height: 33vh;
   display: table-cell;
 }
 .content-fixed-title{
   font-family: 'Myfont';
+  position:relative;
+  width: 100%;
+  height: 16vh;
+  display: table;
+}
+.content-fixed-title-inner{
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  width: 100%;
+}
+.content-fixed-title-inner h1{
+  margin: 0;
+}
+.content-fixed-func{
+  position: relative;
+  width: 100%;
+  height: 16vh;
 }
 .content-fixed-description{
   float: left;
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 30vh;
+  height: 34vh;
   background-color: #aaa;
 }
