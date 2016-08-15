@@ -239,7 +239,7 @@ header{
   left:0;
   border: none;
   text-align: center;
-  display: table;
+  display: none;
   table-layout: fixed;
   height: 100vh;
   background-color: #FFF;

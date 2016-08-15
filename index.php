@@ -1,5 +1,6 @@
 <?php
   require __DIR__."/function.php";
+  require __DIR__."/cont_first.php";
  ?>
 <!DOCTYPE html>
 <html>
@@ -10,7 +11,7 @@
     <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js" integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk=" crossorigin="anonymous"></script>
     <?php
     #Responsiv Phone
     $ua = $_SERVER['HTTP_USER_AGENT'];
@@ -57,58 +58,49 @@
         </div>
       </div>
 
+      <?php
 
-      <div class="content-fixed">
-        <div class="content-fixed-inner">
-          <div class="content-fixed-image">
-            <div class="content-fixed-image-inner">
-              <div class="cont-fixed-image cont-image-1">
+      $list = array(array(
+        'num' => 1,
+        'url' => '#',
+        'name' => 'NewPHPTodoList'
+      ),array(
+        'num' => 2,
+        'url' => '#',
+        'name' => 'KintetsuRailWayList'
+      ),array(
+        'num' => 3,
+        'url' => '#',
+        'name' => 'PHPTodoList'
+      ),array(
+        'num' => 4,
+        'url' => '#',
+        'name' => 'MusicHomePage'
+      ),array(
+        'num' => 5,
+        'url' => '#',
+        'name' => 'RaspberryPI Sensor'
+      ),array(
+        'num' => 6,
+        'url' => '#',
+        'name' => 'No Contents'
+      ),array(
+        'num' => 6,
+        'url' => '#',
+        'name' => 'No Contents'
+      ),array(
+        'num' => 6,
+        'url' => '#',
+        'name' => 'No Contents'
+      ),array(
+        'num' => 6,
+        'url' => '#',
+        'name' => 'No Contents'
+      ));
 
-              </div>
-            </div>
-          </div>
+      ContentFirst($list);
 
-          <div class="content-fixed-overview">
-            <div class="content-fixed-title">
-              <div class="content-fixed-title-inner">
-                <h1>test</h1>
-              </div>
-            </div>
-            <div class="content-fixed-func">
-              <div class="content-fixed-func-inner">
-                <ul>
-                  <li>機能１</li>
-                  <li>機能２</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="content-fixed-description">
-          <p>
-            setumei
-          </p>
-        </div>
-      </div>
-
-      <div class="content-first">
-        <h1>Contents</h1>
-        <div class="content-first-inner">
-          <?php
-            Content("1","#","NewPHPTodoList");
-            Content("2","#","KintetsuRailWayList");
-            Content("3","#","PHPTodoList");
-            Content("4","#","MusicHomePage");
-            Content("5","#","RaspberryPI Sensor");
-            Content("6","#","No Contents");
-            Content("6","#","No Contents");
-            Content("6","#","No Contents");
-            Content("6","#","No Contents");
-           ?>
-
-        </div>
-      </div>
+       ?>
 
       <div class="content-second">
         <div class="content-second-inner">

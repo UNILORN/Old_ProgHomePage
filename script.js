@@ -38,10 +38,16 @@ $(function(){
     $(this).find(".content-box-lay").fadeIn();
     $(this).find(".content-box-lay").css("display","table");
     $(this).find(".content-box-inner").fadeIn();
-
+    var num = $(this).find("input").val();
+    var text = ".content-fixed-num" + num;
+    $(text).show('slide',300);
+    $(text).css("display","table");
   },function(){
     $(this).find(".content-box-lay").fadeOut();
     $(this).find(".content-box-inner").fadeOut();
+    var num = $(this).find("input").val();
+    var text = ".content-fixed-num" + num;
+    $(text).hide('slide',300);
   });
 
 
