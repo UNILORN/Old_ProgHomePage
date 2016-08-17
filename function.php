@@ -9,7 +9,7 @@ function Content($num,$url,$text){
                 <div class="content-box-link"></div>
               </a>
               <div class="content-box-lay">
-                <a href="#">'.$text.'</a>
+                <a href="'.$url.'">'.$text.'</a>
               </div>
             </div>
 

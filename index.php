@@ -61,22 +61,22 @@
 
       $list = array(array(
         'num' => 1,
-        'url' => '#',
+        'url' => '../todo_vuejs',
         'name' => 'NewPHPTodoList',
         'func' => array("アカウント管理","ログイン機能","検索機能","DB連携")
       ),array(
         'num' => 2,
-        'url' => '#',
+        'url' => '../html_practice',
         'name' => 'KintetsuRailWayList',
         'func' => array("MaterialDesign","レスポンシブサイト")
       ),array(
         'num' => 3,
-        'url' => '#',
-        'name' => 'PHPTodoList',
+        'url' => '../php_hoge/practice2.php',
+        'name' => 'PHPTodoLis',
         'func' => array("音声入力","リスト管理","ページング","DB連携")
       ),array(
         'num' => 4,
-        'url' => '#',
+        'url' => '../UNILORN_homepage',
         'name' => 'MusicHomePage',
         'func' => array("動画埋め込み")
       ),array(
