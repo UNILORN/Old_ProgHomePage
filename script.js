@@ -31,7 +31,7 @@ $(function(){
   duration:200,
   boxdelay:0,
   bottomMargin:50,
-  positionComplete:function(){ console.log("end!")}
+  positionComplete:function(){ }
 });
 
   $(".content-box").hover(function(){
