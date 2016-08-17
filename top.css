@@ -152,6 +152,10 @@ header{
   background-color: #fff;
   text-align: center;
 }
+.content-first h3{
+  font-family: 'Myfont';
+}
+
 .content-first-inner{
     width: 100%;
     height: auto;
@@ -170,9 +174,30 @@ header{
   height: auto;
   padding: 45px 30px;
   position: relative;
-  background-color: #AAA ;
+  text-align: center;
+  background-color: #FFF ;
 }
-
+.content-second h3{
+  font-family: 'Myfont';
+}
+.content-second-inner table .time{
+  width:40%;
+  text-align: right;
+}
+.content-second-inner table .data{
+  text-align: left;
+  font-family: 'Myfont';
+  font-size: 18px;
+}
+.content-second-inner table .mail{
+  width:30%;
+  text-align: right;
+}
+.content-second-inner table .adress{
+  text-align: left;
+  font-family: 'Myfont';
+  font-size: 18px;
+}
 .content-box-inner{
   display: none;
   width: 100%;

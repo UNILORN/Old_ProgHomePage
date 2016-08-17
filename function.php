@@ -65,4 +65,25 @@ function functext($list){
     echo '<li><b>'.$value.'</b></li>';
   }
 }
+
+function ContentFirst($list){
+
+  foreach ($list as $value) {
+    ContentFixed($value['num'],$value['name'],$value["func"]);
+  }
+
+echo '
+  <div class="content-first">
+    <h3>Contents</h3>
+    <div class="content-first-inner">
+';
+
+  foreach ($list as $value) {
+    Content($value['num'],$value['url'],$value['name']);
+  }
+echo '
+      </div>
+    </div>
+  ';
+}
  ?>

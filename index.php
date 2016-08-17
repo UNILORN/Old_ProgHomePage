@@ -1,6 +1,5 @@
 <?php
   require __DIR__."/function.php";
-  require __DIR__."/cont_first.php";
  ?>
 <!DOCTYPE html>
 <html>
@@ -112,8 +111,34 @@
        ?>
 
       <div class="content-second">
+        <h3>History</h3>
         <div class="content-second-inner">
+          <table>
+            <tr>
+              <td class="time">2016-08-01</td>
+              <td class="data">Homepage-Prototype</td>
+            </tr>
+            <tr>
+              <td class="time">2016-08-30</td>
+              <td class="data">Homepage-Relese</td>
+            </tr>
+          </table>
+        </div>
+      </div>
 
+      <div class="content-second">
+        <h3>Contact</h3>
+        <div class="content-second-inner">
+          <table>
+            <tr>
+              <td class="mail">mail:</td>
+              <td class="adress">yuoyun6427.yuniron.komoron⭐️gmail</td>
+            </tr>
+            <tr>
+              <td class="mail">GitHub:</td>
+              <td class="adress">https://github.com/UNILORN</td>
+            </tr>
+          </table>
         </div>
       </div>
     </div>
