@@ -72,7 +72,7 @@
       ),array(
         'num' => 3,
         'url' => '../php_hoge/practice2.php',
-        'name' => 'PHPTodoLis',
+        'name' => 'PHPTodoList',
         'func' => array("音声入力","リスト管理","ページング","DB連携")
       ),array(
         'num' => 4,
@@ -94,17 +94,8 @@
         'url' => '#',
         'name' => 'No Contents',
         'func' => array("")
-      ),array(
-        'num' => 6,
-        'url' => '#',
-        'name' => 'No Contents',
-        'func' => array("")
-      ),array(
-        'num' => 6,
-        'url' => '#',
-        'name' => 'No Contents',
-        'func' => array("")
-      ));
+      )
+    );
 
       ContentFirst($list);
 
