@@ -139,21 +139,7 @@
 
        ?>
 
-      <div class="content">
-        <h3>History</h3>
-        <div class="content-sec-inner">
-          <table>
-            <tr>
-              <td class="time">2016-08-01</td>
-              <td class="data">Homepage-Prototype</td>
-            </tr>
-            <tr>
-              <td class="time">2016-08-30</td>
-              <td class="data">Homepage-Relese</td>
-            </tr>
-          </table>
-        </div>
-      </div>
+
 
       <div class="content">
         <h3>Contact</h3>
@@ -165,7 +151,27 @@
             </tr>
             <tr>
               <td class="mail">GitHub:</td>
-              <td class="adress">https://github.com/UNILORN</td>
+              <td class="adress">
+                <a href="https://github.com/UNILORN">https://github.com/UNILORN</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="mail">Twitter:</td>
+              <td class="adress">
+                <a href="https://twitter.com/yuuiro_1552">yuuiro_1552</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="mail">niconico:</td>
+              <td class="adress">
+                <a href="http://www.nicovideo.jp/user/6282195">user/6282195</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="mail">TMbox:</td>
+              <td class="adress">
+                <a href="http://tmbox.net/user/yuuiro_1552/sound">http://tmbox.net/user/yuuiro_1552</a>
+              </td>
             </tr>
           </table>
         </div>
