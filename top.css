@@ -87,12 +87,7 @@ header{
   background-position:center;
   display: none;
 }
-.image-3{
-  background:url(images/bg.jpg);
-  background-size: cover;
-  background-position:center;
-  display: none;
-}
+
 
 .header-logo{
   display: table-cell;
@@ -169,7 +164,7 @@ header{
   height: 200px;
 }
 
-.content-second{
+.content{
   width: 100%;
   height: auto;
   padding: 45px 30px;
@@ -177,23 +172,23 @@ header{
   text-align: center;
   background-color: #FFF ;
 }
-.content-second h3{
+.content h3{
   font-family: 'Myfont';
 }
-.content-second-inner table .time{
+.content-sec-inner table .time{
   width:40%;
   text-align: right;
 }
-.content-second-inner table .data{
+.content-sec-inner table .data{
   text-align: left;
   font-family: 'Myfont';
   font-size: 18px;
 }
-.content-second-inner table .mail{
+.content-sec-inner table .mail{
   width:30%;
   text-align: right;
 }
-.content-second-inner table .adress{
+.content-sec-inner table .adress{
   text-align: left;
   font-family: 'Myfont';
   font-size: 18px;

@@ -32,7 +32,6 @@
     <header>
       <div class="header-image image-1"></div>
       <div class="header-image image-2"></div>
-      <div class="header-image image-3"></div>
       <div class="header-logo">
         <div class="header-logo-2">
           <div class="image">
@@ -56,6 +55,8 @@
            ?>
         </div>
       </div>
+
+      
 
       <?php
 
@@ -101,9 +102,9 @@
 
        ?>
 
-      <div class="content-second">
+      <div class="content">
         <h3>History</h3>
-        <div class="content-second-inner">
+        <div class="content-sec-inner">
           <table>
             <tr>
               <td class="time">2016-08-01</td>
@@ -117,9 +118,9 @@
         </div>
       </div>
 
-      <div class="content-second">
+      <div class="content">
         <h3>Contact</h3>
-        <div class="content-second-inner">
+        <div class="content-sec-inner">
           <table>
             <tr>
               <td class="mail">mail:</td>
