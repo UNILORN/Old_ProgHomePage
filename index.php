@@ -60,14 +60,37 @@
         <h3>News</h3>
         <div class="content-sec-inner">
           <table>
+            <?php
 
+            $newslist = array(
+              array(
+                'time' => '2016-08-20',
+                'data' => 'Function add [ News ]'
+              ),
+              array(
+                'time' => '2016-08-01',
+                'data' => 'New Contents! 5 Items'
+              ),
+              array(
+                'time' => '2016-07-20',
+                'data' => 'Create Domain [ Unilorn.com ]'
+              ),
+              array(
+                'time' => '2016-07-20',
+                'data' => 'Server Start!'
+              )
+            );
+
+            news($newslist);
+
+             ?>
           </table>
         </div>
       </div>
 
       <?php
 
-      $list = array(array(
+      $contentlist = array(array(
         'num' => 1,
         'url' => '../todo_vuejs',
         'name' => 'NewPHPTodoList',
@@ -112,7 +135,7 @@
       )
     );
 
-      ContentFirst($list);
+      ContentFirst($contentlist);
 
        ?>
 

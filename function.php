@@ -60,6 +60,15 @@ function ContentFixed($num,$text,$func,$color){
   echo $html;
 }
 
+function news($list){
+  foreach ($list as $key => $value) {
+    echo '<tr>';
+    echo '<td class="time">'.$value["time"].'</td>';
+    echo '<td class="data">'.$value["data"].'</td>';
+    echo '</tr>';
+  }
+}
+
 function functext($list){
   foreach ($list as $value) {
     echo '<li><b>'.$value.'</b></li>';
