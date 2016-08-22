@@ -158,7 +158,7 @@
             <tr>
               <td class="mail">Twitter:</td>
               <td class="adress">
-                <a href="https://twitter.com/yuuiro_1552">yuuiro_1552</a>
+                <a href="https://twitter.com/yuuiro_1552">@yuuiro_1552</a>
               </td>
             </tr>
             <tr>
@@ -170,7 +170,7 @@
             <tr>
               <td class="mail">TMbox:</td>
               <td class="adress">
-                <a href="http://tmbox.net/user/yuuiro_1552/sound">http://tmbox.net/user/yuuiro_1552</a>
+                <a href="http://tmbox.net/user/yuuiro_1552/sound">tmbox.net/yuuiro_1552</a>
               </td>
             </tr>
           </table>

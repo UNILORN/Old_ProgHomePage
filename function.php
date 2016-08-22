@@ -1,6 +1,8 @@
 <?php
 
-
+//
+// Content-box
+//
 function Content($num,$url,$text){
   $html = '
             <div class="content-box cont-image-'.$num.'">
@@ -17,6 +19,10 @@ function Content($num,$url,$text){
   echo $html;
 }
 
+
+//
+// Content-fixed
+//
 function ContentFixed($num,$text,$func,$color){
   $html = '<div class="content-fixed content-fixed-num'.$num.'" style="background-color:'.$color.'">
           <div class="content-fixed-inner">
@@ -60,6 +66,9 @@ function ContentFixed($num,$text,$func,$color){
   echo $html;
 }
 
+//
+// News-Content
+//
 function news($list){
   foreach ($list as $key => $value) {
     echo '<tr>';
@@ -71,12 +80,11 @@ function news($list){
 
 function functext($list){
   foreach ($list as $value) {
-    echo '<li><b>'.$value.'</b></li>';
+    echo '<li>'.$value.'</li>';
   }
 }
 
 function ContentFirst($list){
-
   foreach ($list as $value) {
     ContentFixed($value['num'],$value['name'],$value["func"],$value["color"]);
   }
