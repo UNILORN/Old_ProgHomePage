@@ -23,7 +23,7 @@ function Content($num,$url,$text){
 //
 // Content-fixed
 //
-function ContentFixed($num,$text,$func,$color){
+function ContentFixed($num,$text,$func,$color,$description){
   $html = '<div class="content-fixed content-fixed-num'.$num.'" style="background-color:'.$color.'">
           <div class="content-fixed-inner">
             <div class="content-fixed-image">
@@ -56,9 +56,7 @@ function ContentFixed($num,$text,$func,$color){
           </div>
           <div class="content-fixed-description">
             <p>
-              ここには説明が入ります。<br>
-              まだコードが整えられてないため工事中です。<br>
-              しばらくお待ちください。
+            '.$description.'
             </p>
           </div>
         </div>
@@ -86,7 +84,7 @@ function functext($list){
 
 function ContentFirst($list){
   foreach ($list as $value) {
-    ContentFixed($value['num'],$value['name'],$value["func"],$value["color"]);
+    ContentFixed($value['num'],$value['name'],$value["func"],$value["color"],$value["description"]);
   }
 
 echo '

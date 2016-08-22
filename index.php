@@ -95,43 +95,50 @@
         'url' => '../todo_vuejs',
         'name' => 'NewPHPTodoList',
         'color' => '#2E7D32',
-        'func' => array("アカウント管理","ログイン機能","検索機能","DB連携")
+        'func' => array("アカウント管理","ログイン機能","検索機能","DB連携"),
+        'description' => ""
       ),array(
         'num' => 2,
         'url' => '../html_practice',
         'name' => 'KintetsuRailWayList',
         'color' => '#7E57C2',
-        'func' => array("MaterialDesign","レスポンシブサイト")
+        'func' => array("MaterialDesign","レスポンシブサイト"),
+        'description' => ""
       ),array(
         'num' => 3,
         'url' => '../php_hoge/practice2.php',
         'name' => 'PHPTodoList',
         'color' => '#43A047',
-        'func' => array("音声入力","リスト管理","ページング","DB連携")
+        'func' => array("音声入力","リスト管理","ページング","DB連携"),
+        'description' => ""
       ),array(
         'num' => 4,
         'url' => '../UNILORN_homepage',
         'name' => 'MusicHomePage',
         'color' => '#616161',
-        'func' => array("動画埋め込み")
+        'func' => array("動画埋め込み"),
+        'description' => ""
       ),array(
         'num' => 5,
         'url' => '#',
         'name' => 'RaspberryPI Sensor',
         'color' => '#E57373',
-        'func' => array("温度管理","サーバ構築")
+        'func' => array("温度管理","サーバ構築"),
+        'description' => ""
       ),array(
         'num' => 6,
         'url' => '#',
         'name' => 'No Contents',
         'color' => '#FF7043',
-        'func' => array("")
+        'func' => array(""),
+        'description' => ""
       ),array(
         'num' => 6,
         'url' => '#',
         'name' => 'No Contents',
         'color' => '#FF7043',
-        'func' => array("")
+        'func' => array(""),
+        'description' => ""
       )
     );
 
