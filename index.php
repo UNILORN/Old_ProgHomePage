@@ -96,49 +96,52 @@
         'name' => 'NewPHPTodoList',
         'color' => '#2E7D32',
         'func' => array("アカウント管理","ログイン機能","検索機能","DB連携"),
-        'description' => ""
-      ),array(
-        'num' => 2,
-        'url' => '../html_practice',
-        'name' => 'KintetsuRailWayList',
-        'color' => '#7E57C2',
-        'func' => array("MaterialDesign","レスポンシブサイト"),
-        'description' => ""
+        'description' =>  "PHPTodoListからの強化版です。１から設計し直したためかなり仕様が変わっています。<br>
+                          ログイン管理：新規登録後ログインし、ログインユーザごとに<br>
+                          リスト管理されるようになっています。<br>
+                          検索機能：曖昧検索、月日指定検索も可能です。<br>
+                          [2016]で年。[07]で月。[07-14]で月日となります。<br>"
       ),array(
         'num' => 3,
         'url' => '../php_hoge/practice2.php',
         'name' => 'PHPTodoList',
         'color' => '#43A047',
         'func' => array("音声入力","リスト管理","ページング","DB連携"),
-        'description' => ""
+        'description' =>  "初todolistです。機能はかなり最低限で、DBからのデータをページングで表示します。<br>
+                          追加の機能は、音声入力ができる点と音声によりリストを操作したりもできる機能です。<br>
+                          「全部消して」と話すと今見えてるリスト内のデータを消去したり、<br>
+                          「全部チェックして」と話すとすべてのチェックボックスにチェックを入れます。"
       ),array(
         'num' => 4,
         'url' => '../UNILORN_homepage',
         'name' => 'MusicHomePage',
         'color' => '#616161',
         'func' => array("動画埋め込み"),
-        'description' => ""
+        'description' => "趣味の作曲や、コラボ作品を主とするホームページです。<br>
+                          まだ未完成で製作途中のホームページです。"
       ),array(
         'num' => 5,
         'url' => '#',
         'name' => 'RaspberryPI Sensor',
         'color' => '#E57373',
         'func' => array("温度管理","サーバ構築"),
-        'description' => ""
+        'description' => "Pythonによる制御で、室内の温度管理やエアコンの遠隔操作などを行いたいと思い製作しています。<br>
+                          このサイトを製作している開発環境下ではRaspberryPIを仕様しています。<br>
+                          その他開発を行う際は、RaspberryPI内で行っています。"
+      ),array(
+        'num' => 7,
+        'url' => '#',
+        'name' => 'ProgramHomePage',
+        'color' => '#FFCCBC',
+        'func' => array(""),
+        'description' => "Coming soon..."
       ),array(
         'num' => 6,
         'url' => '#',
         'name' => 'No Contents',
         'color' => '#FF7043',
         'func' => array(""),
-        'description' => ""
-      ),array(
-        'num' => 6,
-        'url' => '#',
-        'name' => 'No Contents',
-        'color' => '#FF7043',
-        'func' => array(""),
-        'description' => ""
+        'description' => "###工事中###"
       )
     );
 
