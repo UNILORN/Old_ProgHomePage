@@ -149,7 +149,12 @@
 
        ?>
 
-
+       <div class="content">
+         <h3>Profile</h3>
+         <div class="content-th-inner">
+           
+         </div>
+       </div>
 
       <div class="content">
         <h3>Contact</h3>
