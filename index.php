@@ -64,12 +64,20 @@
 
             $newslist = array(
               array(
+                'time' => '2016-08-23',
+                'data' => 'Function add [ Profile ]'
+              ),
+              array(
                 'time' => '2016-08-20',
                 'data' => 'Function add [ News ]'
               ),
               array(
                 'time' => '2016-08-01',
-                'data' => 'New Contents! 5 Items'
+                'data' => 'New Contents! 4 Items'
+              ),
+              array(
+                'time' => '2016-08-01',
+                'data' => 'Create [ Unilorn.com-Prototype ]'
               ),
               array(
                 'time' => '2016-07-20',
@@ -152,7 +160,7 @@
        <div class="content">
          <h3>Profile</h3>
          <div class="content-th-inner">
-           
+
          </div>
        </div>
 
