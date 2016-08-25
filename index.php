@@ -160,7 +160,10 @@
        <div class="content">
          <h3>Profile</h3>
          <div class="content-th-inner">
-
+           <p>name : <span>Unilorn</span></p>
+           <p>Age : <span>20</span></p>
+           <p>Sex : <span>Man</span></p>
+           <p>Job : <span>Student</span></p>
          </div>
        </div>
 
