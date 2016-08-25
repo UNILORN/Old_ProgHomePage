@@ -203,8 +203,17 @@
         </div>
       </div>
 
+      <div class="content">
+        <h3>This Site Concept</h3>
+        <p>
+          シンプルだけど色鮮やかなデザインのサイト。<br>
+          実は使ってる写真は自分で撮りに行きました。<br>
+          <br>
+          そして、最後までスクロールしていただきありがとうございます。
+        </p>
+      </div>
       <footer>
-        <p>Copyright-2106 unilorn.com</p>
+        <p>Copyright - 2106 unilorn.com</p>
       </footer>
 
     </div>
