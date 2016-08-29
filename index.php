@@ -45,7 +45,7 @@
     <div class="page-content">
       <div class="page-profile">
         <div class="page-profile-inner">
-          <h1>ようこそ</h1>
+          <h1>Welcome</h1>
           <p>このサイトはUnilornが作成したWebAppを展示するサイトです。</p>
           <?php
             if($flug == 1){
@@ -206,10 +206,10 @@
       <div class="content">
         <h3>This Site Concept</h3>
         <p>
-          シンプルだけど色鮮やかなデザインのサイト。<br>
+          シンプルで色鮮やかなデザインをコンセプトに制作しました<br>
           実は使ってる写真は自分で撮りに行きました。<br>
+          奈良県の「みたらい渓谷」という場所で、とても迫力のある緑豊かな渓谷です。<br>
           <br>
-          そして、最後までスクロールしていただきありがとうございます。
         </p>
       </div>
       <footer>
