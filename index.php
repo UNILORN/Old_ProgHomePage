@@ -103,6 +103,7 @@
         'url' => '../todo_vuejs',
         'name' => 'NewPHPTodoList',
         'color' => '#2E7D32',
+        'imagetag' => 'content1',
         'func' => array("アカウント管理","ログイン機能","検索機能","DB連携"),
         'description' =>  "PHPTodoListからの強化版です。１から設計し直したためかなり仕様が変わっています。<br>
                           ログイン管理：新規登録後ログインし、ログインユーザごとに<br>
@@ -114,6 +115,7 @@
         'url' => '../php_hoge/practice2.php',
         'name' => 'PHPTodoList',
         'color' => '#43A047',
+        'imagetag' => 'content2',
         'func' => array("音声入力","リスト管理","ページング","DB連携"),
         'description' =>  "初todolistです。機能はかなり最低限で、DBからのデータをページングで表示します。<br>
                           追加の機能は、音声入力ができる点と音声によりリストを操作したりもできる機能です。<br>
@@ -124,6 +126,7 @@
         'url' => '../UNILORN_homepage',
         'name' => 'MusicHomePage',
         'color' => '#616161',
+        'imagetag' => 'content4',
         'func' => array("動画埋め込み"),
         'description' => "趣味の作曲や、コラボ作品を主とするホームページです。<br>
                           まだ未完成で製作途中のホームページです。"
@@ -132,6 +135,7 @@
         'url' => '#',
         'name' => 'RaspberryPI Sensor',
         'color' => '#E57373',
+        'imagetag' => 'content5',
         'func' => array("温度管理","サーバ構築"),
         'description' => "Pythonによる制御で、室内の温度管理やエアコンの遠隔操作などを行いたいと思い製作しています。<br>
                           このサイトを製作している開発環境下ではRaspberryPIを仕様しています。<br>
@@ -141,6 +145,7 @@
         'url' => '#',
         'name' => 'ProgramHomePage',
         'color' => '#FFCCBC',
+        'imagetag' => 'content6',
         'func' => array(""),
         'description' => "Coming soon..."
       ),array(
@@ -148,6 +153,7 @@
         'url' => '#',
         'name' => 'No Contents',
         'color' => '#FF7043',
+        'imagetag' => 'nocontent',
         'func' => array(""),
         'description' => "###工事中###"
       )
