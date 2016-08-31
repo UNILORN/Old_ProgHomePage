@@ -108,7 +108,7 @@
         'name' => 'NewPHPTodoList',
         'color' => '#2E7D32',
         'imagetag' => 'content1',
-        'func' => array("アカウント管理","ログイン機能","検索機能","DB連携"),
+        'func' => array("2016/08/01","アカウント管理","ログイン機能","検索機能","DB連携"),
         'description' =>  "PHPTodoListからの強化版です。１から設計し直したためかなり仕様が変わっています。<br>
                           ログイン管理：新規登録後ログインし、ログインユーザごとに<br>
                           リスト管理されるようになっています。<br>
@@ -120,7 +120,7 @@
         'name' => 'PHPTodoList',
         'color' => '#43A047',
         'imagetag' => 'content3',
-        'func' => array("音声入力","リスト管理","ページング","DB連携"),
+        'func' => array("2016/08/01","音声入力","リスト管理","ページング","DB連携"),
         'description' =>  "初todolistです。機能はかなり最低限で、DBからのデータをページングで表示します。<br>
                           追加の機能は、音声入力ができる点と音声によりリストを操作したりもできる機能です。<br>
                           「全部消して」と話すと今見えてるリスト内のデータを消去したり、<br>
@@ -131,7 +131,7 @@
         'name' => 'MusicHomePage',
         'color' => '#616161',
         'imagetag' => 'content4',
-        'func' => array("動画埋め込み"),
+        'func' => array("2016/08/01","動画埋め込み"),
         'description' => "趣味の作曲や、コラボ作品を主とするホームページです。<br>
                           まだ未完成で製作途中のホームページです。"
       ),array(
@@ -140,7 +140,7 @@
         'name' => 'RaspberryPI Sensor',
         'color' => '#E57373',
         'imagetag' => 'content5',
-        'func' => array("温度管理","サーバ構築"),
+        'func' => array("2016/08/01","温度管理","サーバ構築"),
         'description' => "Pythonによる制御で、室内の温度管理やエアコンの遠隔操作などを行いたいと思い製作しています。<br>
                           このサイトを製作している開発環境下ではRaspberryPIを仕様しています。<br>
                           その他開発を行う際は、RaspberryPI内で行っています。"
@@ -150,7 +150,7 @@
         'name' => 'ProgramHomePage',
         'color' => '#00E676',
         'imagetag' => 'content6',
-        'func' => array("レスポンシブ","統一デザイン","ポートフォリオサイト"),
+        'func' => array("2016/09/01","レスポンシブ","統一デザイン","ポートフォリオサイト"),
         'description' => "現在表示しているホームページです<br>
                           自分が制作したWebAPPや、開発以外の勉強をした際に記事を載せるためのサイトです。<br>"
       ),array(
