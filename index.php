@@ -115,7 +115,7 @@
         'url' => '../php_hoge/practice2.php',
         'name' => 'PHPTodoList',
         'color' => '#43A047',
-        'imagetag' => 'content2',
+        'imagetag' => 'content3',
         'func' => array("音声入力","リスト管理","ページング","DB連携"),
         'description' =>  "初todolistです。機能はかなり最低限で、DBからのデータをページングで表示します。<br>
                           追加の機能は、音声入力ができる点と音声によりリストを操作したりもできる機能です。<br>
@@ -126,7 +126,7 @@
         'url' => '../UNILORN_homepage',
         'name' => 'MusicHomePage',
         'color' => '#616161',
-        'imagetag' => 'content3',
+        'imagetag' => 'content4',
         'func' => array("動画埋め込み"),
         'description' => "趣味の作曲や、コラボ作品を主とするホームページです。<br>
                           まだ未完成で製作途中のホームページです。"
