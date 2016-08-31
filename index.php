@@ -144,10 +144,11 @@
         'num' => 7,
         'url' => '#',
         'name' => 'ProgramHomePage',
-        'color' => '#FFCCBC',
+        'color' => '#00E676',
         'imagetag' => 'content6',
-        'func' => array(""),
-        'description' => "Coming soon..."
+        'func' => array("レスポンシブ","統一デザイン","ポートフォリオサイト"),
+        'description' => "現在表示しているホームページです<br>
+                          自分が制作したWebAPPや、開発以外の勉強をした際に記事を載せるためのサイトです。<br>"
       ),array(
         'num' => 6,
         'url' => '#',
