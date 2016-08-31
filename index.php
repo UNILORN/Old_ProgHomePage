@@ -64,6 +64,10 @@
 
             $newslist = array(
               array(
+                'time' => '2016-09-01',
+                'data' => 'Renewal!! [ Unilorn.com ]'
+              ),
+              array(
                 'time' => '2016-08-23',
                 'data' => 'Function add [ Profile ]'
               ),
