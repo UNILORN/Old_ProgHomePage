@@ -227,41 +227,7 @@ footer p{
   width: 100%;
   height: 200px;
 }
-.cont-image-1{
-  background: url(./images/content1.jpg);
-  background-size: cover;
-  background-position:center;
-}
-.cont-image-2{
-  background: url(./images/content2.jpg);
-  background-size: cover;
-  background-position:center;
-}
-.cont-image-3{
-  background: url(./images/content3.jpg);
-  background-size: cover;
-  background-position:center;
-}
-.cont-image-4{
-  background: url(./images/content4.jpg);
-  background-size: cover;
-  background-position:center;
-}
-.cont-image-5{
-  background: url(./images/content5.jpg);
-  background-size: cover;
-  background-position:center;
-}
-.cont-image-6{
-  background: url(./images/bg.jpg);
-  background-size: cover;
-  background-position:center;
-}
-.cont-image-7{
-  background: url(./images/comingsoon.jpg);
-  background-size: cover;
-  background-position:center;
-}
+
 .content-box-lay{
   position: absolute;
   top: 0;

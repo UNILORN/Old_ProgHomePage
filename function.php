@@ -3,9 +3,9 @@
 //
 // Content-box
 //
-function Content($num,$url,$text){
+function Content($num,$url,$text,$imagetag){
   $html = '
-            <div class="content-box cont-image-'.$num.'">
+            <div class="content-box cont-image-'.$imagetag.'">
               <input type="hidden" value="'.$num.'" />
               <a href="'.$url.'" class="content-box-inner">
                 <div class="content-box-link"></div>
@@ -23,12 +23,12 @@ function Content($num,$url,$text){
 //
 // Content-fixed
 //
-function ContentFixed($num,$text,$func,$color,$description){
+function ContentFixed($num,$text,$func,$color,$description,$imagetag){
   $html = '<div class="content-fixed content-fixed-num'.$num.'" style="background-color:'.$color.'">
           <div class="content-fixed-inner">
             <div class="content-fixed-image">
               <div class="content-fixed-image-inner">
-                <div class="cont-fixed-image cont-image-'.$num.'">
+                <div class="cont-fixed-image cont-image-'.$imagetag.'">
 
                 </div>
               </div>
@@ -82,9 +82,27 @@ function functext($list){
   }
 }
 
+function imagecss($imagetag){
+  echo '
+      .cont-image-'.$imagetag.'{
+        background: url(./images/'.$imagetag.'.jpg);
+        background-size: cover;
+        background-position:center;
+      }
+  ';
+}
+
 function ContentFirst($list){
+
+  echo '<style>';
   foreach ($list as $value) {
-    ContentFixed($value['num'],$value['name'],$value["func"],$value["color"],$value["description"]);
+    imagecss($value["imagetag"]);
+  }
+  echo '</style>';
+
+
+  foreach ($list as $value) {
+    ContentFixed($value['num'],$value['name'],$value["func"],$value["color"],$value["description"],$value["imagetag"]);
   }
 
 echo '
@@ -94,7 +112,7 @@ echo '
 ';
 
   foreach ($list as $value) {
-    Content($value['num'],$value['url'],$value['name']);
+    Content($value['num'],$value['url'],$value['name'],$value['imagetag']);
   }
 echo '
       </div>
