@@ -189,7 +189,13 @@
             <tr>
               <td class="mail">GitHub:</td>
               <td class="adress">
-                <a href="https://github.com/UNILORN">https://github.com/UNILORN</a>
+                <a href="https://github.com/UNILORN">github.com/UNILORN</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="mail">Qiita:</td>
+              <td class="adress">
+                <a href="http://qiita.com/UNILORN">qiita.com/UNILORN</a>
               </td>
             </tr>
             <tr>
