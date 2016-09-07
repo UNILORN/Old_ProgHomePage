@@ -64,7 +64,7 @@
 
             $newslist = array(
               array(
-                'time' => '2016-09-01',
+                'time' => '2016-09-02',
                 'data' => 'Renewal!! [ Unilorn.com ]'
               ),
               array(
