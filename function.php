@@ -119,4 +119,11 @@ echo '
     </div>
   ';
 }
+
+function smartphone(){
+  echo '<h1 style="color:red;">
+    PCで閲覧してね！！
+  </h1>';
+  exit;
+}
  ?>

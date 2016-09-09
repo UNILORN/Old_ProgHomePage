@@ -23,7 +23,7 @@
     #PC
     if ($flug == 0){ echo '<link rel="stylesheet" href="top.css" media="screen" title="no title" charset="utf-8">'; }
     #Phone
-    else { echo '<link rel="stylesheet" href="top_phone.css" media="screen" title="no title" charset="utf-8">'; }
+    else { smartphone();  }
 
      ?>
     <script src="script.js" type="text/javascript"></script>
