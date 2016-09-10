@@ -26,7 +26,10 @@
       VisitorsCount();
      }
     #Phone
-    else { smartphone();  }
+    else {
+      VisitorsCount();
+      smartphone();
+    }
 
      ?>
     <script src="script.js" type="text/javascript"></script>
