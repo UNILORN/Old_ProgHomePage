@@ -2,6 +2,8 @@ var flug = 0;
 $(function() {
     var contentfirst = $('.content-first').offset().top
     var contentsecond = $('.content').offset().top
+    $(".content-fixed").css("margin-left","0px");
+    $(".content-fixed").css("margin-left","");
     $(window).scroll(function() {
         var top = $(window).scrollTop();
         if (top <= contentfirst && flug != 0) {
@@ -27,18 +29,19 @@ $(function() {
     });
 
     $(".content-box").hover(function() {
-        $(this).find(".content-box-lay").fadeIn();
-        $(this).find(".content-box-lay").css("display", "table");
-        $(this).find(".content-box-inner").fadeIn();
+        $(this).find(".content-box-lay").css("opacity", "1");
+        $(this).find(".content-box-inner").css("opacity","1");
+
         var num = $(this).find("input").val();
         var text = ".content-fixed-num" + num;
-        $(text).show('slide', 500);
+        $(text).css("margin-left","0px");
         $(text).css("display", "table");
     }, function() {
-        $(this).find(".content-box-lay").fadeOut();
-        $(this).find(".content-box-inner").fadeOut();
+        $(this).find(".content-box-lay").css("opacity","0");
+        $(this).find(".content-box-inner").css("opacity","0");
+
         var num = $(this).find("input").val();
         var text = ".content-fixed-num" + num;
-        $(text).hide('slide', 500);
+        $(text).css("margin-left","");
     });
 });
