@@ -82,6 +82,10 @@ function functext($list){
   }
 }
 
+
+//
+// Image template
+//
 function imagecss($imagetag){
   echo '
       .cont-image-'.$imagetag.'{
@@ -92,38 +96,43 @@ function imagecss($imagetag){
   ';
 }
 
+//
+// ContentFirst　start
+//
 function ContentFirst($list){
 
   echo '<style>';
   foreach ($list as $value) {
     imagecss($value["imagetag"]);
   }
+
   echo '</style>';
-
-
   foreach ($list as $value) {
     ContentFixed($value['num'],$value['name'],$value["func"],$value["color"],$value["description"],$value["imagetag"]);
   }
 
-echo '
-  <div class="content-first">
-    <h3>Contents</h3>
-    <div class="content-first-inner">
-';
-
+  echo '
+    <div class="content-first">
+      <h3>Contents</h3>
+      <div class="content-first-inner">
+  ';
   foreach ($list as $value) {
     Content($value['num'],$value['url'],$value['name'],$value['imagetag']);
   }
-echo '
-      </div>
-    </div>
-  ';
+  echo '</div></div>';
 }
 
+//
+// SmartPhone
+//
 function smartphone(){
   echo '<h1 style="color:red;">
     PCで閲覧してね！！
   </h1>';
   exit;
+}
+
+function VisitorsCount(){
+  
 }
  ?>
