@@ -133,6 +133,12 @@ function smartphone(){
 }
 
 function VisitorsCount(){
-  
+  $dns = "mysql:host=127.0.0.1;dbname=Homepage_log;charset=utf8";
+  $pdo = new PDO($dns,"testuser","");
+  $agent = $_SERVER["HTTP_USER_AGENT"];
+  $addr = $_SERVER["REMOTE_ADDR"];
+  $sql = "insert into `Data_log` (`USER_AGENT`,`REMOTE_ADDR`,`Datetime`) values('".$agent."','".$addr."',now());";
+  $stmh = $pdo -> prepare($sql);
+  $stmh->execute();
 }
  ?>

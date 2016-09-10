@@ -21,7 +21,10 @@
       if (strpos($ua,$terminal[$i])!==false){ $flug = 1;}
     }
     #PC
-    if ($flug == 0){ echo '<link rel="stylesheet" href="top.css" media="screen" title="no title" charset="utf-8">'; }
+    if ($flug == 0){
+      echo '<link rel="stylesheet" href="top.css" media="screen" title="no title" charset="utf-8">';
+      VisitorsCount();
+     }
     #Phone
     else { smartphone();  }
 
