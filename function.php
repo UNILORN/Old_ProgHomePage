@@ -126,7 +126,7 @@ function ContentFirst($list){
 // SmartPhone
 //
 function smartphone(){
-  echo '<h1 style="color:black; background-color: yellow; width: 20%; margin: 0 auto;">
+  echo '<h1 style="color:black; background-color: yellow; width: 80%; margin: 0 auto;">
     SmartPhone 用ページは工事中です。
     <br />
     しばらくお待ちください。
