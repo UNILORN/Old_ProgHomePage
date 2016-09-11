@@ -126,11 +126,15 @@ function ContentFirst($list){
 // SmartPhone
 //
 function smartphone(){
-  echo '<h1 style="color:red;">
-    PCで閲覧してね！！
+  echo '<h1 style="color:black; background-color: yellow; width: 20%; margin: 0 auto;">
+    SmartPhone 用ページは工事中です。
+    <br />
+    しばらくお待ちください。
   </h1>';
   exit;
 }
+
+
 
 function VisitorsCount(){
   $dns = "mysql:host=127.0.0.1;dbname=Homepage_log;charset=utf8";
